@@ -1,0 +1,184 @@
+#main_nav.nav-pills > li{ position: relative; z-index: 4; }
+#main_nav.nav-pills > li + li{ z-index: 3; left: -42px; }
+#main_nav.nav-pills > li + li + li{ z-index: 2; left: -84px; }
+#main_nav.nav-pills > li + li + li + li{ z-index: 1; left: -126px; }
+#main_nav.nav-pills > li > a{ min-height: 46px; padding: 12px 42px 10px 10px; min-width: 180px; display: inline-block; text-align: center;
+  background: url(../images/menu_background.png) no-repeat right -132px transparent; color: #fff;}
+#main_nav.nav-pills > li.active > a{ background: url(../images/menu_background.png) no-repeat right -76px transparent; }
+#main_nav.nav-pills > li.active + li a{ background: url(../images/menu_background.png) no-repeat right -12px transparent; }
+
+table{ font-size: 14px;}
+.table > tbody > tr > td{ padding: 1px 8px;}
+th{
+  font-size: 16px !important;
+}
+.gotonext{ font-size: 30px; margin-top:25px; cursor: pointer; color: #8f8f8f; }
+.searchinput.glyphicon-search:before{ position: absolute; right: 6px; top: 6px;}
+.searchinput .glyphicon-search{right: 25px; }
+#listcontrols .btn-group{ margin-left: 10px;}
+#listcontrols > .form-control,
+#listcontrols > button{ margin-left: 10px;}
+.padding20{ padding: 20px;}
+.border{ border: 1px solid #ccc;}
+.inline{ display: inline;}
+sidebar{ background: #f4f4f4; }
+sidebar .glyphicon-search{ margin-left: -20px; color: #000;}
+sidebar input{ background: #f4f4f4; color: #000; max-width: 150px; }
+sidebar h2, sidebar h3{ font-size: 20px;}
+sidebar h4 a{ font-size: 14px; float: right;}
+sidebar a,
+sidebar label{ font-weight: normal; margin: 0px; color: #fff;}
+sidebar ul { margin: 0 0 0 10px; padding: 0px; list-style: none; }
+/*sidebar li{list-style:none;}*/
+.title{ -moz-animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
+    animation: fadeIn 1.5s;
+    width: 100%; }
+
+#snapshot .boxes{ }
+#snapshot .boxes > div{ border-left: 1px solid #ccc; }
+#snapshot .boxes > div:first-child{ border:0px; }
+
+
+/*.bg-info{ background: #008693; margin-bottom: 10px; }*/
+header{ margin: 0px; color: #fff; box-shadow: 0 6px 3px rgba(0,0,0,0.1); }
+header a{ color: #fff;}
+.logo{ width: 125px; margin: 10px 0; background: rgb(244, 244, 244); padding: 5px; display: block; text-indent: -9999px; 
+    border-radius: 10px; }
+.logout{ font-size: 16px; padding-top: 12px; margin-bottom: 8px; /*position: absolute; top: -70px; right: 0px; */}
+.btmmenu span {  }
+.btmmenu .font20{ font-size: 18px; padding-top: 7px; }
+.row-eq-height { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display:flex; }
+#container { font-size: 11px;}
+#searchlabel{ position: absolute; top: -10px;}
+#detailview .completion{ width:70px;position:relative; margin: 0 auto;}
+#detailview .completion .percentage { position: absolute; left: 22%; top: 40%; }
+#detailview .completion label{ font-weight: normal; float: left; margin-right: 10px;}
+#detailview .completion .bar{ max-width: 200px; margin-left: 10px;}
+#detailview .completion .bar .progress{ height: 15px;}
+.form-inline { position: relative; margin: 0px;}
+.form-inline .form-group{ margin-top: 5px; }
+#certifierdetails { padding: 20px;}
+#certifierdetails h4{ font-size: 16px;}
+#certifierdetails > div { }
+svg:not(:root),
+#certifierdetails img { width: 60px !important; border-radius: 30px;}
+#certifierdetails .certificate{  }
+
+users:hover,
+#certifierdetails .certificate:hover{ background: #c7e7e9;}
+
+#certifierdetails .certificate:first-child{ border-top: 0px; }
+.certificate.selected,
+.roles.selected,
+.users.selected{ background: #D4D4D4;}
+
+
+.users .btn-sm {position: absolute;top: 10px; padding: 1px 1px; width: 75px;}
+
+.profilethumb{ width: 60px;  border-radius: 3px;}
+
+
+.info{ border: 1px solid #ddd;
+  border-radius: 15px; cursor: pointer;
+  padding: 0px 6px 3px;
+  font-size: 14px;
+  position: relative;
+  top: -4px; width: 18px; height: 18px;}
+.info:before{ content: 'i';}
+input[type="radio"]{ margin: 2px; }
+.roles .diff{ background: #AEE2B1; }
+
+
+ .certified{ background: url(../images/certified.svg) no-repeat left center transparent; min-height: 80px;}
+#compactview .certified{ background-size: 45%; min-height: auto;}
+ .revoked{ background: url(../images/revoked.svg) no-repeat left center transparent; min-height: 80px; }
+#compactview .revoked{ background-size:45%; min-height: auto; }
+.nav-pills p{ margin: 10px 0; border: 1px solid ; padding: 5px;}
+
+/*roll temp css*/
+ .applicant-symbol{ width: 22px; height: 22px; border-radius: 20px; position: absolute; bottom: 10px; right: -10px; }
+.next-icon{ position: absolute; font-size: 18px; top: 42px; left: 80px; color: grey; }
+@media only screen and (max-width: 480px) {
+    .application-tittle{
+        margin-left: 23%;
+    }
+}
+
+/*dashboard*/
+.flow-icon{
+    width: 80px;
+    height: 80px;
+    background:#e95b54;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+.flow-icon span{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.user{background:#f1f3f4;}
+.userdetail{ position: relative; }
+.userbackground{width:80px; height: 80px; background: #1d6594; }
+.userimage{position: absolute;top: 7px;left: 46px;}
+/*.userimage img {border: 3px solid #fff;}*/
+.userinfo{padding-top: 10px; position: relative;}
+.editoption{position: absolute;top:11px; right: 35px;}
+.editoption span{font-size: 18px; color: #817e7e;}
+
+@media only screen and (max-width: 480px) {
+    .editoption{
+            position: absolute;
+            top: -92px;
+            right: 12px;
+    }
+
+    }
+
+    /*entiies*/
+
+.prf-thumb{position: absolute;top: 10px;left: 66px;}
+.prf-backg{width: 100px; height: 100px; background: #1d6594;}
+.prf-title{padding-top: 30px;}
+.prf-status{padding-top: 40px;}
+#detailview .risk-icon{padding-top: 24px;}
+#compactview .risk-icon{padding-top: 15px; text-align: right;}
+.risk-icon button{font-size: 26px; background: transparent; border: none;}
+.risk-icon button[disabled]{ opacity: 0.6;}
+
+#compactview .viewswitch{ font-size:20px; }
+.viewswitch{ font-size:28px; margin: 0px 0 10px 0;}
+
+#detailview .viewswitch{ font-size:28px;margin-top:-45px; }
+
+
+ .headerbackground{
+  background-color: #3c6681 !important;
+ }
+ .box-sidebar{
+    border-top: 3px solid #3c6681 !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+ }
+.gatewayfont{
+    font-weight: bolder !important;
+    font-size: 16px !important;
+}
+.gatewaypanelheader{
+    font-weight: bolder !important;
+    font-size: 18px !important;
+}
+#viewdatatable{
+  margin-left: 10px !important;
+}
+.wrap1{
+  background-color: #f4f4f4;
+
+}
+.wrap2{
+  background-color: #f4f4f4;
+}
